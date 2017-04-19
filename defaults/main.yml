@@ -1,0 +1,3 @@
+---
+dbbackup_bin_dir: /usr/local/bin
+dbbackup_data_dir: /var/dbbackup
