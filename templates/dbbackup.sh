@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# {{ ansible_managed_header }}
 # {{ ansible_managed }}
 
 # Usage: dbbackup.sh <backup_dir>
