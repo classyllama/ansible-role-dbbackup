@@ -45,4 +45,4 @@ for DATABASE in ${DATABASES}; do
 done
 
 # Delete files older than 7 days
-find ${DUMP_DIRECTORY}/* -mtime +7 -exec rm {} \;
+find ${DUMP_DIRECTORY}/* -mtime +{{ dbbackup_keep_days }} -exec rm {} \;

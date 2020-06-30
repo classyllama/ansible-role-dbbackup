@@ -9,7 +9,7 @@
 
 - name: upload {{ dbbackup_bin_dir }}/dbbackup.sh
   template:
-    src: dbbackup.sh
+    src: dbbackup.sh.j2
     dest: "{{ dbbackup_bin_dir }}/dbbackup.sh"
     owner: root
     group: root
